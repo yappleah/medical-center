@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #d6e9f7;
+}
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+nav {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+}
+nav a:hover {
+  background-color: #ddd;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.main {
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+.sidebar {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.playfair-display-400 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+  color: darkblue;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-body {
+  flex: 1; /* Allow the card body to grow to fill the available space */
+  padding: 20px;
+  background-color: #fff; /* White background for card body */
+}
+.card-title {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-color {
+  background-color: darkblue;
+}
